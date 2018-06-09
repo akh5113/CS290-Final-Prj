@@ -1,0 +1,135 @@
+/*color inspiration: https://www.canva.com/learn/website-color-schemes*/
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+    text-align:center;
+}
+
+/*Navigation bar Style*/
+/*https://www.w3schools.com/howto/howto_js_topnav.asp*/
+/*nav bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #6d7993;
+  font-family:Tahoma, Geneva, sans-serif;
+  width:100%;
+}
+
+/*text in nav bar*/
+.topnav a {
+  float: left;
+  color: #d5d5d5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*active tab*/
+.topnav a.active {
+  background-color: #9099a2;
+  color: white;
+}
+
+/*Carosuel Style*/
+.container{
+  position:relative;
+
+}
+.carousel-inner > .photo > img,
+.carousel-inner > .photo > a > img{
+  width:70%;
+
+  margin:auto;
+}
+
+.pageHeader{
+   padding-bottom: 3%;
+   color:#96858f;
+}
+/*Homepage Intro*/
+.home-intro{
+  margin: auto;
+  width: 60%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  font-size:larger;
+  color:#6d7993;
+}
+
+/*About Me*/
+.intro-about{
+  padding-top:2%;
+  margin:auto;
+  width: 60%;
+  color:#6d7993;
+}
+
+.contact-info{
+  margin:auto;
+  border: 3px solid #373f27;
+  width: 30%;
+  background-color:#6d7993;
+  color:white;
+  border-color:#d5d5d5;
+
+}
+.contact-header{
+  color:#96858f;
+}
+.contact{
+  text-align: center;
+}
+.myResume{
+  text-align:center;
+}
+
+/*Oregon State*/
+.osu-courses{
+  margin:auto;
+  text-align:left;
+  width:40%;
+  color:#6d7993;
+}
+
+.osu-intro{
+  margin:auto;
+  width:60%;
+  padding-bottom:2%;
+  color:#6d7993;
+}
+
+/*Other expereince*/
+.intro-OE{
+  width:60%;
+  margin:auto;
+  color:#6d7993;
+}
+
+
+/*Other Experience Page - Scrollbox */
+.scrollbox{
+  margin:auto;
+  width: 800px;
+  height: 200px;
+  color:#6d7993;
+  overflow: scroll;
+}
+
+.psu-courses{
+  text-align:left;
+
+}
+
+.oe-header{
+  color:#96858f;
+}
+
+#about-me-credits{
+  color:white;
+}
+#osu-credits{
+  color:white;
+}
+#oe-credits{
+  color:white;
+}

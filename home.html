@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="personal_webpage_style.css">
+	<title>Anne Harris</title>
+	<!-- bootstrap reference -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- navigation bar -->
+	<div class="topnav">
+ 		<a class="active" href="home.html">Home</a>
+		<a href="aboutme.html">About Me</a>
+ 		<a href="oregonstate.html">Oregon State</a>
+ 		<a href="otherexperience.html">Other Experience</a>
+	</div>
+
+	<!-- page header -->
+	<h1 class = "pageHeader">Anne Harris | Oregon State Computer Science Student</h1>
+
+
+	<!-- Carosule -->
+	<!-- Implemented carousel from bootstrap -->
+	<!-- https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp -->
+	<div class="container">
+		<div id="homeCarousel" class="carosuel slide" data-ride="carosuel">
+			<!-- Indecators of what slide is displayed-->
+			<ol class = "carousel-indicators">
+				<li class = "item1 active"></li>
+				<li class = "item2"></li>
+				<li class = "item3"></li>
+			</ol>
+
+			<!-- Slide Wrapper -->
+			<div class="carousel-inner" role="listbox">
+				<!--Penn State Photo -->
+				<div class = "item active">
+					<img src="psu_grad.jpg" alt="PSU">
+					<div class ="carousel-caption">
+						<h4>Penn State Graduate</h4>
+					</div>
+				</div>
+
+				<!-- Photo by Ruthie on Unsplash-->
+				<div class = "item">
+					<img src="unsplash_maps.jpg" alt="map">
+					<div class ="carousel-caption">
+						<h4>Map Maker</h4>
+					</div>
+				</div>
+				<!--Photo by Artem Sapegin on Unsplash-->
+				<div class = "item">
+					<img src="unsplash_computer.jpg" alt="computer">
+					<div class ="carousel-caption">
+						<h4>Computer Science Student</h4>
+					</div>
+				</div>
+			</div>
+
+			<!-- Left and Right Controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button">
+				<span class = "glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class = "sr-only">Prevous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button">
+				<span class = "glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class = "sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- introduction paragraph-->
+	<p class = "home-intro"><i>Welcome!</i> I'm a post baccalaureate computer science student at Oregon State University.
+	This webpage is for CS290 - Web Development. This is a project used to showcase
+	some of the skills used throughout this course. I hope you enjoy learning more about me!</p>
+
+
+	<!-- Javascript -->
+	<script src="home.js"></script>
+</body>
+</html>
